@@ -8,9 +8,22 @@ public class loop {
 
         // While loop
 
-        while (counter <= range) {
-            System.out.print(counter + " ");
-            counter++;
+        // while (counter <= range) {
+        //     System.out.print(counter + " ");
+        //     counter++;
+        // }
+
+        // for loop
+        // for(counter=1; counter<range; counter++){
+        //     System.out.print(counter + " ");
+        // }
+
+        for(int line=1; line<=4; line++){
+            for (int j=1; j<4; j++){
+
+                System.err.println("****");
+            }
         }
+
     }
 }
