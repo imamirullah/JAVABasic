@@ -26,14 +26,26 @@ public class loop {
 
 
         //  Sum of n NAtural numbers
-        int n= sc.nextInt();
-        int i =1;
-        int sum = 0;
-         while (i<=n) {
-            sum += i;
-            i++;
+//         int n= sc.nextInt();
+//         int i =1;
+//         int sum = 0;
+//          while (i<=n) {
+//             sum += i;
+//             i++;
             
-         }
-System.out.println(sum);
+//          }
+// System.out.println(sum);
+
+// Reverse Of a NUMMBER
+int n = sc.nextInt();
+
+
+while (n > 0) {
+    int last = n%10;
+    System.out.print(last);
+    n = n/10;
+    
+}
+System.out.print(n);
     }
 }
